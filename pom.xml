@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>java-mongo</name>
+    <name>java-mongo-full</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>com.brevio</groupId>
-    <artifactId>java-mongo-player</artifactId>
+    <artifactId>java-mongo-full</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
