@@ -4,12 +4,12 @@ token:
   exp:
     minutos: 60
   signing:
-    key: ${KEY}
+    key: ${TOKEN_KEY}
 spring:
   data:
     mongodb:
-      uri: ${MONGO_URL}
-      database: ${DATABASE}
+      uri: ${MONGO_URI}
+      database: ${MONGO_DATABASE}
 springdoc:
   swagger-ui:
     path: /
